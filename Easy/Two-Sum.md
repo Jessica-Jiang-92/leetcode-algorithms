@@ -34,7 +34,7 @@ var twoSum = function(nums, target) {
     const result = [];
     for (let i = 0; i <= nums.length; i++) {
       for (let j = 1; j <= nums.length; j++) {
-        if (nums[i] + nums[j] === target && i !== j) {
+        if (nums[i] + nums[j] === target && i !== j) { // 注意要求是i和j不能相等，从第三个测试用例就可以看出来
           result[0] = i;
           result[1] = j;
         }
