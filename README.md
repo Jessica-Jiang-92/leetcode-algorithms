@@ -6,7 +6,7 @@
 
 ### 目录
 
-- [1. Two Sum]()
+- [1. Two Sum](https://github.com/Jessica-Jiang-92/leetcode-algorithms/blob/main/Easy/Two-Sum.md)
 
 
 
