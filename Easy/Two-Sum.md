@@ -1,8 +1,11 @@
 ## 题目描述
 
-Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
-You may assume that each input would have exactly one solution, and you may not use the same element twice.
-You can return the answer in any order.
+给定一个整数数组 nums 和一个整数目标值 target，请你在该数组中找出 和为目标值 的那 两个 整数，并返回它们的数组下标。
+
+你可以假设每种输入只会对应一个答案。但是，数组中同一个元素在答案里不能重复出现。
+
+你可以按任意顺序返回答案。
+
 
 ## 测试用例
 
@@ -43,7 +46,9 @@ var twoSum = function(nums, target) {
     return result;
 };
 ```
+![1620870382](https://user-images.githubusercontent.com/82437559/118065778-20375a00-b3d0-11eb-8f32-a91f0e58d3ae.png)
 
+从图上可以看出，上面这种方式运行效率不高，因为我们用了2层循环，我们现在来考虑优化一下。
 
 
 
