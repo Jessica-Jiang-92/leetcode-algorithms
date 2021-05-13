@@ -6,8 +6,8 @@
 
 ### 目录
 
-- [1. Two Sum](https://github.com/Jessica-Jiang-92/leetcode-algorithms/blob/main/Easy/Two-Sum.md)
-- [2. Reverse a number]()
+- [1. 两数之和](https://github.com/Jessica-Jiang-92/leetcode-algorithms/blob/main/Easy/Two-Sum.md)
+- [2. 整数翻转](https://github.com/Jessica-Jiang-92/leetcode-algorithms/blob/main/Easy/Reverse-an-Number.md)
 
 
 
