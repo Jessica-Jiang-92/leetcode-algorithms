@@ -71,7 +71,7 @@ var twoSum = function(nums, target) {
     return result;
 };
 
-解析：
+解析：通过哈希表的方式完成查找，在进行迭代并将元素插入到表中的同时，我们还会回过头来检查表中是否已经存在当前元素所对应的目标元素。如果它存在，那我们已经找到了对应解，并立即将其返回。
 ```
 ![logo](https://user-images.githubusercontent.com/82437559/118067852-f3854180-b3d3-11eb-8dde-1401615a6463.png)
 
