@@ -31,6 +31,7 @@ Output: [0,1]
 ```
 
 ## 3. 解法
+- 解法一
 
 ```
 var twoSum = function(nums, target) {
@@ -50,6 +51,31 @@ var twoSum = function(nums, target) {
 
 从图上可以看出，上面这种方式运行效率不高，因为我们用了2层循环，这个时候的时间复杂度是`O(n^2)`，空间复杂度是:`O(1)`。
 我们现在来考虑优化一下。
+
+- 解法二
+```
+/**
+ * @param {number[]} nums
+ * @param {number} target
+ * @return {number[]}
+ */
+var twoSum = function(nums, target) {
+    let result = new Map();
+    for (let i = 0; i < nums.length; i++) {
+      let remain = target - nums[i];
+      if (result.has(remain)) {
+        return [result.get(remain), i];
+      }
+      result.set(nums[i], i);
+    }
+    return result;
+};
+
+解析：
+```
+![logo](https://user-images.githubusercontent.com/82437559/118067852-f3854180-b3d3-11eb-8dde-1401615a6463.png)
+
+
 
 
 
