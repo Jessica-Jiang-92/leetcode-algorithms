@@ -76,6 +76,8 @@ var twoSum = function(nums, target) {
 ```
 ![logo](https://user-images.githubusercontent.com/82437559/118067852-f3854180-b3d3-11eb-8dde-1401615a6463.png)
 
+显然地，可以看出这个时候算法的时间复杂度是：`O(n)`,空间复杂度也是`O(n)`。
+
 
 
 
