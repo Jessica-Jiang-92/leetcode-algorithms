@@ -170,5 +170,5 @@ var romanToInt = function(s) {
 ```
 ![111](https://user-images.githubusercontent.com/82437559/118251975-d25b4880-b4da-11eb-950a-23a6ed8fb8a8.png)
 
-可以看出：相比较解法一而言，解法二的内存消耗要少很多，时间消耗上是差不多的。
+可以看出：相比较解法一而言，内存和时间上的消耗是差不多的。
 
