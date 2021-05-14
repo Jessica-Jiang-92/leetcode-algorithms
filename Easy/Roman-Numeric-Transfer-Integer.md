@@ -62,6 +62,8 @@ IL 和 IM 这样的例子并不符合题目要求，49 应该写作 XLIX，999 �
 ```
 ## 3. 解决方法
 
+- 解法一
+
 分析：
 1. 首先，我们将6个特殊的罗马数字也看作跟普通的罗马数字一样，将它们一起存在一个对象中（下面的`romans`）。对应关系表示如下：
 
@@ -110,5 +112,61 @@ var romanToInt = function(s) {
 ```
 ![1620981695](https://user-images.githubusercontent.com/82437559/118245400-54e00a00-b4d3-11eb-9a3c-bc85fc18b1b1.png)
 
+- 解法二
+
+分析：
+
+
+```
+/**
+ * @param {string} s
+ * @return {number}
+ */
+var romanToInt = function(s) {
+    let result = 0;
+    if (s.includes('IV') || s.includes('IX')) {
+      result -= 2;
+    }
+    if (s.includes('XL') || s.includes('XC')) {
+      result -= 20;
+    }
+    if (s.includes('CD') || s.includes('CM')) {
+      result -= 200;
+    }
+
+    for (let char of s) {
+      switch (char) {
+        case 'I':
+          result += 1;
+          break;
+
+        case 'V':
+          result += 5;
+          break;
+
+        case 'X':
+          result += 10;
+          break;
+        case 'L':
+          result += 50;
+          break;
+
+        case 'C':
+          result += 100;
+          break;
+
+        case 'D':
+          result += 500;
+          break;
+
+        case 'M':
+          result += 1000;
+          break;
+      }
+    }
+
+    return result;
+};
+```
 
 
