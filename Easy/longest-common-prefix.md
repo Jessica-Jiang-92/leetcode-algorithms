@@ -51,6 +51,29 @@ var longestCommonPrefix = function(strs) {
 
 - 方法二：只需要比较最长字符串和最短的字符串的最长公共前缀
 
+ 获取数组中的最大值及最小值字符串，最小字符串与最大字符串的最长公共前缀也为其他字符串的公共前缀，即为字符串数组的最长公共前缀。
+ 例如 abc 、 abcd 、ab 、ac ，最小 ab 与最大 ac 的最长公共前缀一定也是 abc 、 abcd 的公共前缀。
+ ![解法二](https://user-images.githubusercontent.com/82437559/119471316-c04f9480-bd7b-11eb-8435-e5e58e3889d0.png)
+
+```
+var longestCommonPrefix = function(strs) {
+    if (strs === null || strs.length === 0) return "";
+    if(strs.length === 1) return strs[0]
+    let min = 0, max = 0
+    for(let i = 1; i < strs.length; i++) {
+        if(strs[min] > strs[i]) min = i
+        if(strs[max] < strs[i]) max = i
+    }
+    for(let j = 0; j < strs[min].length; j++) {
+        if(strs[min].charAt(j) !== strs[max].charAt(j)) {
+            return strs[min].substring(0, j)
+        }
+    }
+    return strs[min]
+};
+
+
+```
 
 
 
