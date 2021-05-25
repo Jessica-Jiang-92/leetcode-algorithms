@@ -10,7 +10,7 @@
 - [2. 整数翻转](https://github.com/Jessica-Jiang-92/leetcode-algorithms/blob/main/Easy/Reverse-an-Number.md)
 - [3. 回文数](https://github.com/Jessica-Jiang-92/leetcode-algorithms/blob/main/Easy/palindromic-number.md)
 - [4.  罗马数字转整数](https://github.com/Jessica-Jiang-92/leetcode-algorithms/blob/main/Easy/Roman-Numeric-Transfer-Integer.md)
-- [5. 最长公共前缀](https://github.com/Jessica-Jiang-92/leetcode-algorithms/blob/main/Easy/longest-common-prefix.md)
+- [5. 最长公共前缀（LCP）](https://github.com/Jessica-Jiang-92/leetcode-algorithms/blob/main/Easy/longest-common-prefix.md)
 
 
 
