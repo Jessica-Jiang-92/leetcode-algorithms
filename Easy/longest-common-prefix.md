@@ -49,5 +49,9 @@ var longestCommonPrefix = function(strs) {
 2. 空间复杂度是：O(1).
 ```
 
+- 方法二：只需要比较最长字符串和最短的字符串的最长公共前缀
+
+
+
 
 图解方法参考：[https://leetcode-cn.com/problems/longest-common-prefix/solution/tu-jie-leetcodezui-chang-gong-gong-qian-zhui-lcp-b/](https://leetcode-cn.com/problems/longest-common-prefix/solution/tu-jie-leetcodezui-chang-gong-gong-qian-zhui-lcp-b/)
