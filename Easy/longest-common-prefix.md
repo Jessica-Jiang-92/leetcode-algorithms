@@ -76,6 +76,8 @@ var longestCommonPrefix = function(strs) {
 时间复杂度：O(n+m)，n是数组的长度， m 是字符串数组中最短字符的长度。
 空间复杂度：O(1)。
 ```
+- 分析：
+
 
 
 
