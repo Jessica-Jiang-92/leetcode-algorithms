@@ -76,8 +76,16 @@ var longestCommonPrefix = function(strs) {
 时间复杂度：O(n+m)，n是数组的长度， m 是字符串数组中最短字符的长度。
 空间复杂度：O(1)。
 ```
-- 分析：
-
+分析：
+1. 求最大和最小字符串
+```
+for(let i = 1; i < strs.length; i++) { // n 次循环
+  if(strs[min] > strs[i]) min = i // 最坏情况下进行了 m 次对比, 每次对比是 O(1) 的时间开销
+  if(strs[max] < strs[i]) max = i // 最坏情况下进行了 m 次对比
+}
+```
+以上过程进行了n次循环，每次循环都进行了2m次单字符的比较操作，时间复杂度为：O(n*2m)
+2. 
 
 
 
