@@ -95,7 +95,7 @@ for(let j = 0; j < strs[min].length; j++) {  // m次循环
 ```
 分析可知：该部分的代码对比最大和最小字符串时进行了m次单字符的比较操作，时间复杂度为：O(m)。
 合并两部分代码的时间复杂度，得到最差情况下这种解法的时间复杂度为：O(S)。
-推导：`O(n*2m)+O(m) = 2*O(n*m)+O(m)`，略去常数系数2和低阶项O(m)，即O(S)。
+推导：`O(n*2m)+O(m) = 2*O(n*m)+O(m)`，略去常数系数2和低阶项O(m)，即O(S)。（S 是所有字符串中字符数量的总和。）
 
 
 图解方法参考：[https://leetcode-cn.com/problems/longest-common-prefix/solution/tu-jie-leetcodezui-chang-gong-gong-qian-zhui-lcp-b/](https://leetcode-cn.com/problems/longest-common-prefix/solution/tu-jie-leetcodezui-chang-gong-gong-qian-zhui-lcp-b/)
