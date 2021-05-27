@@ -85,7 +85,14 @@ for(let i = 1; i < strs.length; i++) { // n 次循环
 }
 ```
 以上过程进行了n次循环，每次循环都进行了2m次单字符的比较操作，时间复杂度为：O(n*2m)
-2. 
+2. 对比最大和最小字符串
+```
+for(let j = 0; j < strs[min].length; j++) {  // m次循环
+  if(strs[min].charAt(j) !== strs[max].charAt(j)) {   // O(1)的时间开销
+    return strs[min].substring(0, j)
+  }
+}
+```
 
 
 
