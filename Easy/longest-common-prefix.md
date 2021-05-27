@@ -35,11 +35,11 @@ var longestCommonPrefix = function(strs) {
     let prevs = strs[0]
     for(let i = 1; i < strs.length; i++) {  // 遍历这个字符串数组，并初始化最长公共前缀是第一个字符串
         let j = 0
-        for(; j < prevs.length && j < strs[i].length; j++) {
-            if(prevs.charAt(j) !== strs[i].charAt(j)) break
+        for(; j < prevs.length && j < strs[i].length; j++) {  // 当j小于最长公共子串的长度同时也小于第i个字符串的长度时
+            if(prevs.charAt(j) !== strs[i].charAt(j)) break;  // 当最长前缀的第j个字符与第i个字符串的第j个字符不相等时，就退出循环
         }
-        prevs = prevs.substring(0, j)
-        if(prevs === "") return ""
+        prevs = prevs.substring(0, j);  // 这时候设置最长前缀是之前的0-j-1个位置上字符组成的字符串
+        if(prevs === "") return "";
     }
     return prevs
 };
