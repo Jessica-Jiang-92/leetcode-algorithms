@@ -33,7 +33,7 @@
 var longestCommonPrefix = function(strs) {
     if (strs === null || strs.length === 0) return "";
     let prevs = strs[0]
-    for(let i = 1; i < strs.length; i++) {
+    for(let i = 1; i < strs.length; i++) {  // 遍历这个字符串数组，并初始化最长公共前缀是第一个字符串
         let j = 0
         for(; j < prevs.length && j < strs[i].length; j++) {
             if(prevs.charAt(j) !== strs[i].charAt(j)) break
