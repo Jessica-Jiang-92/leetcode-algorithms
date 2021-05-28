@@ -11,7 +11,7 @@
 - [3. 回文数](https://github.com/Jessica-Jiang-92/leetcode-algorithms/blob/main/Easy/palindromic-number.md)
 - [4.  罗马数字转整数](https://github.com/Jessica-Jiang-92/leetcode-algorithms/blob/main/Easy/Roman-Numeric-Transfer-Integer.md)
 - [5. 最长公共前缀（LCP）—— 字节、网易、拼多多](https://github.com/Jessica-Jiang-92/leetcode-algorithms/blob/main/Easy/longest-common-prefix.md)
-- [6. 有效的括号—— Blili面试题](https://github.com/Jessica-Jiang-92/leetcode-algorithms/blob/main/Easy/Valid-brackets/valid-brackets.md)
+- [6. 有效的括号—— BiliBili面试题](https://github.com/Jessica-Jiang-92/leetcode-algorithms/blob/main/Easy/Valid-brackets/valid-brackets.md)
 
 
 
