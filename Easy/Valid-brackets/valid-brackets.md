@@ -75,6 +75,7 @@ var isValid = function(s) {
     return stack.length === 0;
 };
 ```
+![有效的括号](https://user-images.githubusercontent.com/82437559/120147098-b8c73a00-c218-11eb-9ded-88ab78a28e37.png)
 
 
 
