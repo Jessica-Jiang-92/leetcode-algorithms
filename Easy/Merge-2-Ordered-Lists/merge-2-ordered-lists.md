@@ -43,6 +43,38 @@
 - 如果2个链表有一个为空，递归结束。
 
 ### 📝代码
+```
+/**
+ * Definition for singly-linked list.
+ * function ListNode(val, next) {
+ *     this.val = (val===undefined ? 0 : val)
+ *     this.next = (next===undefined ? null : next)
+ * }
+ */
+/**
+ * @param {ListNode} l1
+ * @param {ListNode} l2
+ * @return {ListNode}
+ */
+var mergeTwoLists = function(l1, l2) {
+    if (l1 === null) {
+        return l2;
+    } else if (l2 === null) {
+        return l1;
+    } else if (l1.val < l2.val) {
+        l1.next = mergeTwoLists(l1.next, l2);
+        return l1;
+    } else {
+        l2.next = mergeTwoLists(l1, l2.next);
+        return l2;
+    }
+};
+```
+![递归](https://user-images.githubusercontent.com/82437559/120414955-5a6f9800-c38d-11eb-9d85-ca7c3086b535.png)
+
+### 📝复杂度分析
+
+
 
 
 
