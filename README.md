@@ -14,6 +14,7 @@
 - [5. 最长公共前缀（LCP）—— 字节、网易、拼多多](https://github.com/Jessica-Jiang-92/leetcode-algorithms/blob/main/Easy/longest-common-prefix.md)
 - [6. 有效的括号—— BiliBili](https://github.com/Jessica-Jiang-92/leetcode-algorithms/blob/main/Easy/Valid-brackets/valid-brackets.md)
 - [7. 合并2个有序列表](https://github.com/Jessica-Jiang-92/leetcode-algorithms/blob/main/Easy/Merge-2-Ordered-Lists/merge-2-ordered-lists.md)
+- [8. 删除有序数组中的重复项]()
 
 
 
