@@ -17,10 +17,9 @@
 - [8. 删除有序数组中的重复项](https://github.com/Jessica-Jiang-92/leetcode-algorithms/blob/main/Easy/Remove-Duplicated-Items-from-Ordered-Array/remove-duplicated-items-from-ordered-array.md)
 
 
-
 ## 📝2. Medium
 
-### 目录
+### 🚀 目录
 
 - [1. 两数相加](https://github.com/Jessica-Jiang-92/leetcode-algorithms/blob/main/Medium/sum-two-numbers.md)
 
