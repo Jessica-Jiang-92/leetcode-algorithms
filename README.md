@@ -5,7 +5,7 @@
 
 ## 📝1. Easy
 
-### 目录
+### 🚀 目录
 
 - [1. 两数之和](https://github.com/Jessica-Jiang-92/leetcode-algorithms/blob/main/Easy/Two-Sum/two-sum.md)
 - [2. 整数翻转](https://github.com/Jessica-Jiang-92/leetcode-algorithms/blob/main/Easy/Reverse-an-Number/Reverse-a-Number.md)
